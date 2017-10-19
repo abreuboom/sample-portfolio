@@ -1,0 +1,38 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(241, 241, 241);
+}
+
+.container {
+  padding: 25px;
+  align-content: center;
+  text-align: center;
+}
+
+.container.content {
+  background-color: ;
+  border-radius: 25px;
+  background-color: white;
+}
+
+#profile-pic {
+  display: block;
+  width: 50%;
+  height: 25%;
+}
+
+#profile-pic img {
+  width: inherit;
+  height: auto;
+  border-radius: 50%;
+}
+
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
