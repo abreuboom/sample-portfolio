@@ -67,6 +67,14 @@ html, body {
   transform: scale(1.02);
 }
 
+button:focus {
+    outline:none !important;
+}
+
+button:visited, button:active {
+    background-color:inherit !important;
+    color:inherit !important;
+}
 
 .btn-circle.btn-lg {
   width: 50px;
